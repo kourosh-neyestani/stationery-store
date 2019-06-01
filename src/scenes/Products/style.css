@@ -1,0 +1,286 @@
+/*
+ * Products
+ */
+.page-products {
+    background: #e1e1e1;
+    padding-bottom: 60px;
+}
+
+
+/*
+ * Misc
+ */
+@media (min-width: 992px) {
+    .row-products {
+        display: flex;
+        margin-left: -9px;
+        margin-right: -9px;
+    }
+    .row-products > * {
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+    .row-products .col-products-xl-2 {
+        flex: 0 0 20% !important;
+        max-width: 20% !important;
+    }
+    .row-products .col-products-xl-80 {
+        flex: 0 0 80% !important;
+        max-width: 80% !important;
+    }
+}
+
+
+.row-products {
+    justify-content: space-between;
+}
+.row-products .col-products-xl-2 {
+    overflow: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.row-products .col-products-xl-80 {
+
+}
+
+
+
+/*
+ * Products Top-bar
+ */
+.products-top-bar {
+    height: 120px;
+    background: var(--primary);
+}
+.products-top-bar .title {
+    width: 150px;
+    height: 12px;
+    background: #eee;
+    margin-top: 24px;
+}
+.products-top-bar .products-sorting {
+    float: left;
+    padding: 18px 0;
+    list-style: none;
+}
+.products-top-bar .products-sorting > li {
+    color: #fff;
+    width: 73px;
+    height: 12px;
+    background: #eee;
+    font-weight: 700;
+    margin-right: 15px;
+    display: inline-block;
+    font-family: iranyekan, sans-serif;
+    position: relative;
+    top: 3px;
+}
+.products-top-bar .products-sorting > li.divider {
+    top: 3px;
+    width: 1px;
+    height: 12px;
+    background: #fff;
+    position: relative;
+}
+/*
+ * Products List Items
+ */
+.products-list-1 {
+    overflow: hidden;
+    border-radius: 6px;
+    margin-bottom: 18px;
+}
+
+.products-list-1 .product-item {
+    border: 1px solid #eee;
+}
+.products-list-2 .product-item {
+    border-radius: 6px;
+    border: 6px solid #fff;
+}
+.products-list-items {
+    top: -60px;
+    position: relative;
+}
+/*
+ * Pagination
+ */
+.products-bar {
+    height: 36px;
+    overflow: hidden;
+    border-radius: 6px;
+    display: none;
+}
+.products-pagination {
+
+}
+.products-pagination ul {
+    background: #fff;
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0 auto;
+}
+.products-pagination ul > li {
+    color: #aaa;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    margin-left: 6px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.products-pagination ul > li.icon {
+    font-size: 18px;
+    padding-top: 4px;
+}
+.component-pagination {
+
+}
+
+
+/*
+ * Products Sidebar
+ */
+.products-sidebar {
+
+}
+.products-sidebar .products-widget {
+    overflow: hidden;
+    background: #fff;
+    border-radius: 6px;
+    margin-bottom: 9px;
+}
+.products-sidebar .products-widget .products-widget-head {
+    height: 45px;
+    display: flex;
+    cursor: pointer;
+    padding: 6px 15px 0;
+    align-items: center;
+}
+.products-sidebar .products-widget .products-widget-head .icon {
+    order: 2;
+    flex: .3;
+    color: #ccc;
+    font-size: 21px;
+    text-align: left;
+    padding: 6px 0 0;
+}
+.products-sidebar .products-widget .products-widget-head .title {
+    order: 1;
+    flex: .7;
+    width: 45px;
+    height: 12px;
+    color: #bbb;
+    display: block;
+    font-size: 16px;
+    line-height: 18px;
+    align-items: end;
+    justify-content: center;
+    font-family: iranyekan, sans-serif !important;
+}
+.products-sidebar .products-widget .products-widget-head .title.wf-title {
+    background: #eee;
+}
+.products-sidebar .products-widget .products-widget-body {
+    height: 0;
+    visibility: hidden;
+}
+.products-sidebar .products-widget .products-widget-body .products-widget-block {
+    padding: 15px 15px 24px;
+}
+.products-sidebar .products-widget.active .products-widget-body {
+    height: inherit;
+    visibility: visible;
+}
+.products-sidebar .products-widget.active .products-widget-head .title {
+    color: #999;
+}
+
+/*
+ * Sidebar Widgets
+ */
+.products-widget-colors ul {
+    margin: 0 auto;
+    list-style: none;
+    display: inline-block;
+    padding: 0 3px 0 0;
+}
+.products-widget-colors ul li {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    margin: 0 3px 6px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.products-widget-colors ul li:nth-child(1) {
+    background-color: red;
+}
+.products-widget-colors ul li:nth-child(2) {
+    background-color: palevioletred;
+}
+.products-widget-colors ul li:nth-child(3) {
+    background-color: indianred;
+}
+.products-widget-colors ul li:nth-child(4) {
+    background-color: orange;
+}
+.products-widget-colors ul li:nth-child(5) {
+    background-color: orangered;
+}
+.products-widget-colors ul li:nth-child(6) {
+    background-color: #ffde10;
+}
+.products-widget-colors ul li:nth-child(7) {
+    background-color: limegreen;
+}
+.products-widget-colors ul li:nth-child(8) {
+    background-color: yellowgreen;
+}
+.products-widget-colors ul li:nth-child(9) {
+    background-color: green;
+}
+.products-widget-colors ul li:nth-child(10) {
+    background-color: cadetblue;
+}
+.products-widget-colors ul li:nth-child(11) {
+    background-color: deepskyblue;
+}
+.products-widget-colors ul li:nth-child(12) {
+    background-color: cadetblue;
+}
+.products-widget-colors ul li:nth-child(13) {
+    background-color: darkslateblue;
+}
+.products-widget-colors ul li:nth-child(14) {
+    background-color: mediumslateblue;
+}
+.products-widget-colors ul li:nth-child(15) {
+    background-color: blueviolet;
+}
+.products-widget-colors ul li:nth-child(16) {
+    background-color: deeppink;
+}
+.products-widget-colors ul li:nth-child(17) {
+    background-color: brown;
+}
+.products-widget-colors ul li:nth-child(18) {
+    background-color: saddlebrown;
+}
+.products-widget-colors ul li:nth-child(19) {
+    background-color: darkslategray;
+}
+.products-widget-colors ul li:nth-child(20) {
+    background-color: gray();
+}
+.products-widget-colors ul li:nth-child(21) {
+    background-color: black;
+}
+.products-widget-colors ul li:nth-child(22) {
+    background-color: cadetblue;
+}

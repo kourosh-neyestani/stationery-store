@@ -5,6 +5,7 @@ import AppRouter from "./AppRouter";
 import * as serviceWorker from './serviceWorker';
 // Main Styles
 import './assets/styles/style.css';
+import './App.css';
 
 const theme = createMuiTheme({
     direction: 'rtl',
