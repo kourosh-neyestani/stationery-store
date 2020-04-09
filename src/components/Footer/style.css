@@ -1,0 +1,22 @@
+.site-footer {
+    height: 60px;
+    background: #212121;
+}
+.site-footer .copyright {
+    color: #999;
+    line-height: 60px;
+}
+.site-footer .social-links {
+    margin: 0;
+    float: left;
+    padding: 15px 0 0;
+    list-style: none;
+}
+.site-footer .social-links li {
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+    border-radius: 6px;
+    display: inline-block;
+    border: 1px solid #999;
+}

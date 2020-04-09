@@ -1,4 +1,61 @@
 .site-header {
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 60px;
+    position: fixed;
     background-color: #212121;
+    z-index: 9999;
+}
+/*
+ * Header Menu
+ */
+.site-header .header-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.site-header .header-menu li {
+    padding: 24px 0 0;
+    margin-left: 15px;
+    display: inline-block;
+}
+.site-header .header-menu li .text {
+    width: 60px;
+    height: 12px;
+    display: block;
+    background: #999;
+}
+/*
+ * Header Cart
+ */
+.site-header .header-cart {
+    text-align: left;
+    padding-top: 7px;
+}
+.site-header .header-cart .button-cart {
+    padding-left: 24px !important;
+    padding-right: 15px !important;
+    background: var(--primary-3) !important;
+    font-family: iranyekan, sans-serif !important;
+    font-weight: 600 !important;
+}
+.site-header .header-cart .button-cart:hover {
+    background-color: var(--primary);
+}
+.site-header .header-cart .button-cart .icon {
+    top: 1px;
+    right: -6px;
+    width: 33px;
+    height: 33px;
+    font-size: 18px;
+    padding-top: 4px;
+    position: relative;
+    margin-left: 9px;
+    border-radius: 50%;
+    background-color: var(--primary-2);
+    display: inline-block;
+}
+.site-header .header-cart .button-cart .title {
+
 }

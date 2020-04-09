@@ -1,0 +1,15 @@
+.component-stars {
+    padding: 0;
+    direction: ltr;
+    list-style: none;
+    white-space: nowrap;
+}
+
+.component-stars li {
+    width: 14px;
+    height: 14px;
+    color: #ffa500;
+    font-size: 12px;
+    margin-right: 3px;
+    display: inline-block;
+}

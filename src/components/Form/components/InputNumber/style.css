@@ -1,0 +1,29 @@
+.component-input-numbers {
+    height: 51px;
+    background: #eee;
+    overflow: hidden;
+    border-radius: 4px;
+    display: inline-block;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    margin-left: 6px;
+    float: right;
+}
+.component-input-numbers-button {
+    width: 30px;
+    height: 54px;
+    float: right;
+    color: #f9f9f9;
+    line-height: 51px;
+    text-align: center;
+    background: var(--primary-3);
+}
+.component-input-numbers-value {
+    width: 60px;
+    float: right;
+    line-height: 54px;
+    text-align: center;
+    display: inline-block;
+    background: var(--primary);
+    color: #fff;
+}

@@ -1,0 +1,22 @@
+.zoom-container {
+    overflow: hidden;
+    border-radius: 6px;
+}
+.zoom-container > div {
+    margin: 14%;
+    border-radius: 3px;
+    background-repeat: no-repeat;
+}
+.zoom-container > div .zoom-container-image {
+    background-color: #fff;
+}
+.zoom-container > div:hover .zoom-container-image {
+    opacity: 0;
+    display: block;
+}
+.zoom-container > div:hover {
+    border: 1px solid var(--primary);
+}
+
+
+

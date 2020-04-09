@@ -1,0 +1,10 @@
+.component-coment-form {
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #eee;
+    background-color: #f6f6f6;
+}
+.component-coment-form input,
+.component-coment-form textarea {
+    background: #f6f6f6;
+}

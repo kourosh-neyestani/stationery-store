@@ -1,0 +1,30 @@
+.component-input-stars {
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #e3e3e3;
+}
+.component-input-stars ul {
+    left: 0;
+    top: 24px;
+    width: 100px;
+    display: flex;
+    position: absolute;
+    padding: 0 !important;
+    direction: ltr;
+}
+.component-input-stars ul li {
+    flex: 0 0 20%;
+    max-width: 20%;
+    color: #999999;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+}
+.component-input-stars ul li.active {
+    color: #ff8d05;
+}
+.component-input-stars .component-input-stars-label {
+    color: #999;
+    line-height: 60px;
+}

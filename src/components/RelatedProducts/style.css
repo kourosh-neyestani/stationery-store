@@ -1,0 +1,35 @@
+.related-products {
+    padding-bottom: 24px;
+}
+.related-products .related-products-row {
+    margin-left: -9px;
+    margin-right: -9px;
+}
+.related-products .related-products-col {
+    padding-top: 6px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.related-products  .product-price-old {
+    float: right;
+}
+.related-products .related-products-arrow {
+    top: -51px;
+    width: 27px;
+    height: 27px;
+    display: block;
+    cursor: pointer;
+    line-height: 33px;
+    text-align: center;
+    position: absolute;
+    border-radius: 3px;
+    color: #fff;
+    background-color: var(--primary);
+    z-index: 9;
+}
+.related-products .related-products-arrow.prev {
+    left: 9px;
+}
+.related-products .related-products-arrow.next {
+    left: 42px;
+}

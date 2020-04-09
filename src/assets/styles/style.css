@@ -1,9 +1,9 @@
 :root {
-    --primary: #dd3333;
-    --secondary: lightcoral;
+    --primary: #ec1c23;
+    --secondary: #01bfd7;
 
-
-
+    --primary-2: #cf3232;
+    --primary-3: #8c0000;
     --info: blue;
     --danger: red;
     --success: green;
@@ -188,24 +188,26 @@ html,body {
     height: 100%;
 }
 body {
-    font-family: IRANSans, sans-serif !important;
-    direction: rtl;
     margin: 0;
+    direction: rtl;
     font-size: 14px;
     text-align: right;
-
+    font-family: iranyekan, sans-serif !important;
 }
 p {
     line-height: 1.8;
 }
 h1, h2, h3, h4, h5, h6, input, select, textarea, button {
-    font-family: IRANSans, sans-serif !important;
+    font-family: iranyekan, sans-serif;
+}
+.font-num {
+    font-family: IRANSans, sans-serif;
 }
 .font-body {
-    font-family: IRANSans, sans-serif !important;
+    font-family: iranyekan, sans-serif !important;
 }
 .font-primary {
-    font-family: IRANSans, sans-serif !important;
+    font-family: iranyekan, sans-serif !important;
 }
 .font-secondary {
     font-family: iranyekan, sans-serif !important;
